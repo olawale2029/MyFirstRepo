@@ -1,0 +1,24 @@
+body {
+    background-color: blue;
+}
+
+input{
+    width: 450px;
+    height: 50px;
+    font-size: 24px;
+    background-color: var(--negative);
+    color: var(--primary);
+    outline: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input:focus {
+    border: 2px solid var(--primary);
+}
+
+select {
+    width: 200px;
+}
